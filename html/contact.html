@@ -1,0 +1,20 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+<form action = "contact.php" method="POST">
+    <div id="login">
+        <h2> Hi, You can store your contacts here</h2><br><br>
+        <input type="text" id="username" name="fullname" placeholder="Fullname" class="name"><br><br>
+        <input type="text" id="relation" name="relation" placeholder="Your relation with him/her" class="name"><br><br>
+        <input type="number" id="number" name="number" placeholder="Contact Number" class="name"><br><br>
+        <input type="email" id="email" name="email" placeholder="Email" class="name"><br>&nbsp;
+        <br><br>
+        <input type="Submit" value="Store" class="text">
+        <br><br>
+        <input type="Submit" value="View Your Contacts" onclick="window.location.href='table.php'"class="text">
+    </div>
+</form>
+</body>
+</html>
